@@ -1,12 +1,21 @@
+<<<<<<< HEAD
 * {
 box-sizing: border-box;
 }
 
 *::before, *::after {
+=======
+*{
+  box-sizing: border-box;
+}
+
+*::before, *::after{
+>>>>>>> 140542bd73c2d754bb35d4378e81b5988006bd5c
   box-sizing: inherit;
 }
 
 body {
+<<<<<<< HEAD
   font-size: 16px;
   margin: 0;
   font-family: sans-serif;
@@ -92,4 +101,7 @@ p {
 }
 .never-miss__x {
   float: right;
+=======
+  margin: 0;
+>>>>>>> 140542bd73c2d754bb35d4378e81b5988006bd5c
 }
