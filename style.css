@@ -1,10 +1,8 @@
     * {
     box-sizing: border-box;
 }
-*::before, *::after {
-    * {
-        box-sizing: border-box;
-    }
+
+
     *::before, *::after {
         box-sizing: inherit;
     }
@@ -36,9 +34,7 @@
         display: inline-block;
     }
 
-    .big-box {
-      width: 75%;
-    }
+
     .side-bar {
         background: white;
         width: 25%;
